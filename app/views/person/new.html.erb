@@ -1,0 +1,10 @@
+<br>
+
+Be notified when Pablo is no longer on Signals from the Frontline so you can once again enjoy the podcast.
+
+
+<%= form_for @person, :url => person_index_path do |f| %>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+  <%= f.submit "Sign Up"%>
+<% end %>
